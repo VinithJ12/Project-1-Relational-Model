@@ -2,19 +2,31 @@
 
 ## When minutes matter, data can lead the way
 
-Every year, hundreds of thousands of American families register for federal disaster housing assistance after hurricanes, floods, and storms tear through their communities. They fill out forms. They wait. And then they wait some more — for an inspector to come, for an eligibility decision to be made, for help to arrive. In the worst disasters, that wait stretches from days into weeks. This project asks a simple but powerful question: what if we didn't have to wait?
+Every year, hundreds of thousands of American families register for federal disaster housing assistance after hurricanes, floods, and storms damage their homes. They fill out forms. They wait — for an inspector to arrive, for an eligibility decision, and for help. In large-scale disasters, that wait can stretch from days into weeks. This project asks a simple but powerful question: what if we didn’t have to wait?
 
-## The problem: a system built to react, not to predict
+## The Problem: A System Built to React, Not to Predict
 
-When a major disaster strikes, FEMA opens registration for Individual Assistance — a program that has served 5.6 million people and distributed over $4 billion in aid in a single year. But the process is fundamentally reactive. An inspector must physically visit each home before FEMA can determine whether it needs habitability repairs — the critical determination of whether a family can safely return. With inspectors stretched across thousands of square miles of disaster zones, high-need households can fall through the cracks. Research has shown that the poorest renters are 23% less likely to receive housing help than higher-income renters, and the poorest homeowners receive roughly half as much rebuilding assistance. The system doesn't just move slowly — it moves inequitably.
+When a major disaster strikes, FEMA opens registration for Individual Assistance — a program that serves millions of households and distributes billions of dollars in aid each year. However, the process is fundamentally reactive. An inspector must visit each home before FEMA can determine whether it requires habitability repairs — the key decision that determines whether a family can safely return.
 
-## The solution: let the data decide who goes first
+With inspectors spread across large disaster zones, inspection capacity becomes a bottleneck. As a result, households with the greatest need are not always prioritized first. Research shows that lower-income households are less likely to receive assistance and often receive less when they do, highlighting both delays and inequities in the system.
 
-Using FEMA's own historical records — 6.3 million household registrations from major disasters across Florida, Texas, Puerto Rico, and Louisiana — this project trained a machine learning model that can predict whether a household will require habitability repairs using only the information available at the moment of registration: household size, income, insurance status, residence type, and early damage indicators. The model achieves 81.2% accuracy, correctly identifying 4 out of 5 households that will need repairs — before an inspector ever arrives. A second model predicts the dollar value of property damage with an R² of 0.664, explaining nearly two-thirds of the variation in repair costs. Together, these tools could allow emergency managers to prioritize inspection schedules, pre-position repair crews, and flag the highest-need households for immediate follow-up.
+## The Solution: Let the Data Help Decide Who Goes First
 
-## What the data revealed
+Using FEMA’s historical records — over 6 million household registrations from major disasters across Florida, Texas, Puerto Rico, and Louisiana — this project trains a machine learning model to predict whether a household will require habitability repairs using only the information available at the time of registration. These inputs include household size, income, insurance status, housing type, and early damage indicators.
 
-The analysis uncovered stark geographic and demographic disparities in disaster damage outcomes. Louisiana had the highest habitability repair rate at 60.4% — meaning 6 in 10 inspected households in Louisiana disasters could not safely return home. Florida, by contrast, had a repair rate of just 19.9%. Homeowners experienced nearly double the repair rate of renters (47.6% vs 26.8%), despite earning on average $20,000 more per year — a finding that reflects the structural vulnerability of detached housing to severe weather. Flood damage was the single strongest predictor of habitability repairs: households with flood damage required repairs at nearly 7 times the rate of those without. The chart below shows the top factors the model identified as predictive of repair needs.
+The model correctly identifies households that will need repairs about 81% of the time, providing an early signal of which families are most at risk. A second model estimates the expected cost of property damage, explaining a large portion of the variation in repair outcomes.
+
+While the model is trained on historically inspected households, it is designed to be applied at the moment of registration, allowing predictions to be generated days before an inspector arrives.
+
+Together, these tools enable emergency managers to prioritize inspection schedules, allocate resources more effectively, and identify high-need households earlier in the response process.
+
+## What The Data Revealed
+
+The analysis uncovered clear geographic and structural patterns in disaster damage outcomes. Louisiana had the highest habitability repair rate, with a majority of inspected households requiring repairs, while states like Florida experienced significantly lower rates.
+
+Homeowners experienced higher repair rates than renters, reflecting the structural vulnerability of certain housing types to severe weather. Flood damage emerged as one of the strongest indicators of repair needs, with affected households far more likely to require habitability repairs than those without flooding.
+
+The chart below highlights the most important factors driving these predictions.
 
 ## Chart: what predicts whether a home needs repairs?
 
