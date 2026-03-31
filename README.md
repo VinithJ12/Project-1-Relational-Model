@@ -179,6 +179,90 @@ registrants (id PK)
 
 ---
 
+How the Pipeline Solves the Problem
+
+The goal of this project is to move FEMA’s housing assistance process from a reactive inspection-based system to a predictive triage system. This pipeline operationalizes that shift in four stages:
+
+1. Transforming Raw Data into a Usable Decision System
+
+The original FEMA dataset contains over 6.3 million records in a flat structure. This project restructures the data into a relational model with four tables:
+
+registrants (household characteristics)
+damage_assessment (inspection outcomes)
+assistance_outcomes (aid decisions)
+location (geographic context)
+
+This transformation enables efficient querying and scalable analysis, turning raw administrative data into a decision-ready dataset.
+
+2. Learning from Historical Inspection Outcomes
+
+Using this structured dataset, the pipeline trains a Random Forest classifier to predict:
+
+Target: habitabilityRepairsRequired (0/1)
+
+This directly models the decision FEMA inspectors currently make after visiting a home.
+
+By learning this mapping from:
+
+registration-time features → inspection outcomes
+
+the model replicates the core decision process in advance.
+
+3. Quantifying Damage Severity
+
+A secondary model (Gradient Boosting Regressor) predicts:
+
+Target: rpfvl (property loss in dollars)
+
+This provides a continuous measure of damage severity, allowing FEMA to:
+
+distinguish between minor and critical cases
+prioritize not just who needs help, but how urgently
+4. Enabling Predictive Triage (Core Solution)
+
+Together, these models allow FEMA to:
+
+Flag high-risk households immediately after registration
+Prioritize inspections for likely severe cases
+Pre-position resources in high-risk regions
+
+Instead of:
+
+Inspect → then decide
+
+the system enables:
+
+Predict → prioritize → inspect → act
+
+5. Evidence That the Solution Works
+
+The effectiveness of this approach is supported by model performance:
+
+81.1% accuracy (F1 = 0.755) in predicting repair needs
+R² = 0.66 in estimating property loss
+
+These results demonstrate that:
+
+Registration data contains sufficient predictive signal
+The model can meaningfully approximate inspection outcomes
+Final Connection to the General Problem
+
+The original problem was allocating emergency response resources.
+
+This pipeline solves that by:
+
+Converting historical FEMA data into a predictive decision tool
+Enabling faster, data-driven prioritization
+Reducing delays in identifying households in need
+
+Therefore, this project transforms emergency response from:
+
+sequential and reactive
+to
+prioritized and proactive
+
+
+
 ============================================================
 PRESS RELEASE — save this section as press_release.md
 ============================================================
