@@ -18,6 +18,6 @@ The analysis uncovered stark geographic and demographic disparities in disaster 
 
 ## Chart: what predicts whether a home needs repairs?
 
-*[Insert figures/feature_importance.png here]*
+![Feature Importance](figures/feature_importance.png)
 
 The feature importance chart from the Random Forest model shows that real property loss (`rpfvl`), personal property loss (`ppfvl`), water level, and roof damage amount are the strongest predictors of whether a home requires habitability repairs. These are all factors that can be estimated or self-reported at the time of registration — meaning the model can generate predictions the moment a household submits their FEMA application, days before an inspector visits.
