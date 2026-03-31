@@ -222,6 +222,8 @@ A secondary model (**Gradient Boosting Regressor**) predicts the financial scale
 
 Together, these models allow FEMA to move away from a "wait and see" approach.
 
+While the model is trained on historically inspected households, it is designed to be applied at the time of registration to prioritize future inspections.
+
 | **Feature** | **Traditional Process** | **Predictive Pipeline** |
 | --- | --- | --- |
 | **Workflow** | Inspect $\rightarrow$ Decide | Predict $\rightarrow$ Prioritize $\rightarrow$ Act |
