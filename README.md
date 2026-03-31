@@ -125,6 +125,7 @@ registrants (id PK)
     ||--|| assistance_outcomes (id PK+FK)
     ||--|| location (id PK+FK)
 ```
+<img width="1440" height="1160" alt="image" src="https://github.com/user-attachments/assets/7b7c23b0-0a96-4fd0-8796-d0f810db9fa3" />
 
 ### Data table
 
