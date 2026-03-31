@@ -66,11 +66,11 @@ This project lives at the intersection of disaster informatics, public policy, a
 
 | # | Title | Description | File |
 |---|---|---|---|
-| 1 | FEMA OpenFEMA Data Documentation | Official documentation for the Individual Assistance Housing Registrants dataset including field definitions and collection methodology | [background/fema_openfema_docs.pdf](background/fema_openfema_docs.pdf) |
-| 2 | GAO Report: FEMA Should Take Additional Steps to Streamline Disaster Assistance | Government Accountability Office report finding FEMA lacks systematic use of historical data to anticipate resource needs | [background/gao_fema_report.pdf](background/gao_fema_report.pdf) |
-| 3 | Center for American Progress: Fixing FEMA | Policy analysis recommending FEMA shift to needs-based rather than damage-based aid allocation | [background/cap_fixing_fema.pdf](background/cap_fixing_fema.pdf) |
-| 4 | Tulane University: Barriers to Equitable Disaster Recovery | 25-year literature review documenting how race, income, and renter status affect disaster aid outcomes | [background/tulane_equity_review.pdf](background/tulane_equity_review.pdf) |
-| 5 | NPR Investigation: FEMA Aid Inequity | Investigative journalism analysis of 4.8 million FEMA registrations finding poorest renters 23% less likely to receive housing help | [background/npr_fema_inequity.pdf](background/npr_fema_inequity.pdf) |
+| 1 | FEMA OpenFEMA Data Documentation | Official documentation for the Individual Assistance Housing Registrants dataset including field definitions and collection methodology | [fema_openfema.pdf](https://myuva-my.sharepoint.com/:b:/g/personal/uhe5bj_virginia_edu/IQAQc_QtEJe9SrK_R3kZpS1HASwPmzSMseCAecko6RTKR5E?e=dj4zCz) |
+| 2 | GAO Report: FEMA Should Take Additional Steps to Streamline Disaster Assistance | Government Accountability Office report finding FEMA lacks systematic use of historical data to anticipate resource needs | [gao_fema_report.pdf](https://myuva-my.sharepoint.com/:b:/g/personal/uhe5bj_virginia_edu/IQBUduklIV5JTq9lef-v0cWqAer_ZfxHIvwvp4irZQQq8k4?e=OoHCfT) |
+| 3 | Center for American Progress: Fixing FEMA | Policy analysis recommending FEMA shift to needs-based rather than damage-based aid allocation | [cap_fixing_fema.pdf](https://myuva-my.sharepoint.com/:b:/g/personal/uhe5bj_virginia_edu/IQCMDDu1G4aiQYMjwXETT2CQAYBqEtudxL3ZJJptSd-eeSY?e=HSGXJa) |
+| 4 | Tulane University: Barriers to Equitable Disaster Recovery | 25-year literature review documenting how race, income, and renter status affect disaster aid outcomes | [tulane_equity_review.pdf](https://myuva-my.sharepoint.com/:b:/g/personal/uhe5bj_virginia_edu/IQA87maeobcSTY4dMEEuplRGAfhM_mSG-b4iAZ51_4j4-og?e=NYIBo9) |
+| 5 | NPR Investigation: FEMA Aid Inequity | Investigative journalism analysis of 4.8 million FEMA registrations finding poorest renters 23% less likely to receive housing help | [npr_fema_inequity.pdf](https://myuva-my.sharepoint.com/:b:/g/personal/uhe5bj_virginia_edu/IQBS4bWGFDdCQ6i4JMBYOiROAa4sur1GxGMNpRKQydtAmQk?e=RTMLtf) |
 
 ---
 
