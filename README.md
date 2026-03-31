@@ -7,7 +7,7 @@
 **Data and Background Reading:** [UVA OneDrive Folder](https://myuva-my.sharepoint.com/:f:/g/personal/uhe5bj_virginia_edu/IgBSQ5AQLTDES4ZOwpFBc-MrAaSVj_qqcQxvivzJ14UM6-I?e=0M6Xs5)  
 **Pipeline:** [pipeline.ipynb](pipeline.ipynb) | [pipeline.md](pipeline_final.md)                                                                                
 **COLAB Pipeline Option:** [Pipeline.ipynb](https://colab.research.google.com/drive/1jgfsSzeFVxpDYwF-ckdhbLhCPfeeTKHG?usp=sharing)                                          
-**License:** MIT License — [LICENSE](LICENSE)
+**License:** MIT License  [LICENSE](LICENSE)
 
 ---
 
