@@ -131,10 +131,10 @@ registrants (id PK)
 
 | Table | Description | Link |
 |---|---|---|
-| registrants.csv | Household demographics: income, composition, tenure, insurance, residency | [data/registrants.csv](data/registrants.csv) |
-| damage_assessment.csv | Physical damage indicators from inspector visits: flood, roof, foundation damage, water level, property loss | [data/damage_assessment.csv](data/damage_assessment.csv) |
-| assistance_outcomes.csv | FEMA aid eligibility and dollar amounts: rental, repair, replacement, TSA, SBA | [data/assistance_outcomes.csv](data/assistance_outcomes.csv) |
-| location.csv | Geographic identifiers: city, state, zip, census block, disaster number | [data/location.csv](data/location.csv) |
+| registrants.csv | Household demographics: income, composition, tenure, insurance, residency | [registrants.csv](https://myuva-my.sharepoint.com/:x:/g/personal/uhe5bj_virginia_edu/IQD-H_OqaKLZQa_d2RHnRZ78AcnMCxLkduNGoHWSh1JMkJI?e=TXEj8N) |
+| damage_assessment.csv | Physical damage indicators from inspector visits: flood, roof, foundation damage, water level, property loss | [damage_assessment.csv](https://myuva-my.sharepoint.com/:x:/g/personal/uhe5bj_virginia_edu/IQB9HZ2wVSuFQbNVX7dZmY9iAQdgonTp71GDSfgdtWnvVo8?e=lPShC6) |
+| assistance_outcomes.csv | FEMA aid eligibility and dollar amounts: rental, repair, replacement, TSA, SBA | [assistance_outcomes.csv](https://myuva-my.sharepoint.com/:x:/g/personal/uhe5bj_virginia_edu/IQD2nYqkHBMBT7UDsi8IkUraASIS492a4jp82emM_G_XYqg?e=qP6XxM) |
+| location.csv | Geographic identifiers: city, state, zip, census block, disaster number | [location.csv](https://myuva-my.sharepoint.com/:x:/g/personal/uhe5bj_virginia_edu/IQCsilpCooMsRqzY6gmEVbHCAYwYu4OWHDiatAOpP4eBQ74?e=huQBLp) |
 
 ### Data dictionary
 
