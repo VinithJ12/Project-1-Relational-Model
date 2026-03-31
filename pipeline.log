@@ -1,0 +1,81 @@
+2026-03-29 14:11:13,706 | INFO | === load.py started ===
+2026-03-29 14:11:13,707 | INFO | CSV found: IndividualAssistanceHousingRegistrantsLargeDisasters.csv
+2026-03-29 14:11:13,728 | INFO | Connected to DuckDB database: fema.db
+2026-03-29 14:11:13,735 | INFO | Dropped existing table 'raw_fema' (if it existed)
+2026-03-29 14:11:13,735 | INFO | Loading CSV into table 'raw_fema' — this may take a moment for a 979MB file...
+2026-03-29 14:11:34,993 | INFO | Successfully created table 'raw_fema'
+2026-03-29 14:11:34,999 | INFO | Generating data summary...
+2026-03-29 14:11:36,444 | INFO | Data summary complete
+2026-03-29 14:11:36,727 | INFO | === load.py finished — database saved to: fema.db ===
+2026-03-29 14:41:32,561 | INFO | clean.py started...
+2026-03-29 14:41:32,564 | INFO | Output directory ready: data
+2026-03-29 14:41:32,583 | INFO | Connected to fema.db
+2026-03-29 14:41:32,583 | INFO | Building fema_clean base table...
+2026-03-29 14:41:32,718 | INFO | State income medians computed
+2026-03-29 14:41:40,395 | INFO | fema_clean created: 3,114,654 rows
+2026-03-29 14:41:40,398 | INFO | Dropped existing table: registrants
+2026-03-29 14:41:41,595 | INFO | registrants table created: 3,114,654 rows
+2026-03-29 14:41:41,596 | INFO | Dropped existing table: damage_assessment
+2026-03-29 14:41:42,759 | INFO | damage_assessment table created: 3,114,654 rows
+2026-03-29 14:41:42,760 | INFO | Dropped existing table: assistance_outcomes
+2026-03-29 14:41:43,876 | INFO | assistance_outcomes table created: 3,114,654 rows
+2026-03-29 14:41:43,877 | INFO | Dropped existing table: location
+2026-03-29 14:41:45,329 | INFO | location table created: 3,114,654 rows
+2026-03-29 14:41:45,924 | INFO | Exported registrants -> data/registrants.csv (223.8 MB)
+2026-03-29 14:41:46,678 | INFO | Exported damage_assessment -> data/damage_assessment.csv (205.0 MB)
+2026-03-29 14:41:47,257 | INFO | Exported assistance_outcomes -> data/assistance_outcomes.csv (202.4 MB)
+2026-03-29 14:41:47,875 | INFO | Exported location -> data/location.csv (241.4 MB)
+2026-03-29 14:41:47,876 | INFO | Running validation checks...
+2026-03-29 14:41:48,582 | INFO | Validation complete
+2026-03-29 14:41:48,977 | INFO | === clean.py finished ===
+2026-03-29 14:45:16,222 | INFO | clean.py started...
+2026-03-29 14:45:16,223 | INFO | Output directory ready: data
+2026-03-29 14:45:16,238 | INFO | Connected to fema.db
+2026-03-29 14:45:16,238 | INFO | Building fema_clean base table...
+2026-03-29 14:45:16,369 | INFO | State income medians computed
+2026-03-29 14:45:21,136 | INFO | fema_clean created: 2,275,817 rows
+2026-03-29 14:45:21,140 | INFO | Dropped existing table: registrants
+2026-03-29 14:45:21,843 | INFO | registrants table created: 2,275,817 rows
+2026-03-29 14:45:21,849 | INFO | Dropped existing table: damage_assessment
+2026-03-29 14:45:22,580 | INFO | damage_assessment table created: 2,275,817 rows
+2026-03-29 14:45:22,586 | INFO | Dropped existing table: assistance_outcomes
+2026-03-29 14:45:23,256 | INFO | assistance_outcomes table created: 2,275,817 rows
+2026-03-29 14:45:23,262 | INFO | Dropped existing table: location
+2026-03-29 14:45:24,179 | INFO | location table created: 2,275,817 rows
+2026-03-29 14:45:24,673 | INFO | Exported registrants -> data/registrants.csv (163.7 MB)
+2026-03-29 14:45:25,695 | INFO | Exported damage_assessment -> data/damage_assessment.csv (152.2 MB)
+2026-03-29 14:45:26,501 | INFO | Exported assistance_outcomes -> data/assistance_outcomes.csv (151.1 MB)
+2026-03-29 14:45:27,397 | INFO | Exported location -> data/location.csv (176.2 MB)
+2026-03-29 14:45:27,398 | INFO | Running validation checks...
+2026-03-29 14:45:27,933 | INFO | Validation complete
+2026-03-29 14:45:32,271 | INFO | === clean.py finished ===
+2026-03-29 18:36:15,750 | INFO | analysis.py started...
+2026-03-29 18:36:15,754 | INFO | Output directories ready
+2026-03-29 18:36:15,789 | INFO | Connected to fema.db
+2026-03-29 18:36:15,790 | INFO | Running query: repair rate by state
+2026-03-29 18:36:16,379 | INFO | Saved figure: figures/repair_rate_by_state.png
+2026-03-29 18:36:16,379 | INFO | Running query: damage type breakdown
+2026-03-29 18:36:16,593 | INFO | Saved figure: figures/damage_type_breakdown.png
+2026-03-29 18:36:16,593 | INFO | Running query: income by repair status
+2026-03-29 18:36:17,295 | INFO | Income query returned 1,890,307 rows
+2026-03-29 18:36:17,890 | INFO | Saved figure: figures/income_vs_repair.png
+2026-03-29 18:36:17,891 | INFO | Running query: repair rate by tenure
+2026-03-29 18:36:18,124 | INFO | Building ML feature matrix...
+2026-03-29 18:36:23,533 | INFO | ml_features exported: data/ml_features.csv (30.3 MB)
+2026-03-29 18:36:25,975 | INFO | analysis.py finished
+2026-03-29 18:46:39,282 | INFO | model.py started...
+2026-03-29 18:46:40,431 | INFO | Loaded ml_features.csv: 496,902 rows, 23 columns
+2026-03-29 18:46:40,517 | INFO | Feature matrix ready: 496,902 rows
+2026-03-29 18:46:40,518 | INFO | Training Random Forest classifier...
+2026-03-29 18:46:40,846 | INFO | Train: 397,521 rows | Test: 99,381 rows
+2026-03-29 18:46:46,912 | INFO | Random Forest training complete
+2026-03-29 18:46:47,175 | INFO | Classifier — Accuracy: 0.8124 | F1: 0.7580
+2026-03-29 18:46:47,405 | INFO | Saved figure: figures/confusion_matrix.png
+2026-03-29 18:46:47,757 | INFO | Saved figure: figures/feature_importance.png
+2026-03-29 18:46:47,758 | INFO | Training Gradient Boosting regressor...
+2026-03-29 18:46:47,837 | INFO | Regressor training set: 209,278 rows with rpfvl > 0
+2026-03-29 18:46:47,864 | INFO | Subsampled to 100,000 rows for regressor training
+2026-03-29 18:46:56,157 | INFO | Gradient Boosting training complete
+2026-03-29 18:46:56,207 | INFO | Regressor — R²: 0.6638 | RMSE: $5,135
+2026-03-29 18:46:56,548 | INFO | Saved figure: figures/predicted_vs_actual.png
+2026-03-29 18:46:56,548 | INFO | model.py finished
