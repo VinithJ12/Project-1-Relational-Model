@@ -2,7 +2,7 @@
 
 **Name:** Vinith Jayamani  
 **NetID:** uhe5bj  
-**DOI:** [Add after creating via Zenodo or GitHub]  
+**DOI:** [![DOI](https://zenodo.org/badge/1191117026.svg)](https://doi.org/10.5281/zenodo.19354270)                  
 **Press Release:** [press_release.md](press_release.md)  
 **Data and Background Reading:** [UVA OneDrive Folder](https://myuva-my.sharepoint.com/:f:/g/personal/uhe5bj_virginia_edu/IgBSQ5AQLTDES4ZOwpFBc-MrAaSVj_qqcQxvivzJ14UM6-I?e=0M6Xs5)  
 **Pipeline:** [pipeline.ipynb](pipeline.ipynb) | [pipeline.md](pipeline_final.md)                                                                                
